@@ -1,0 +1,104 @@
+﻿namespace C48_G02_OOP02
+{
+    internal class DeliveryCenter
+    {
+
+        //field
+        private Shipment[] shipments;
+        private int size = 20;
+
+        //prop
+        public string CenterName { get; set; }
+
+        //ctor
+        public DeliveryCenter()
+        {
+            shipments = new Shipment[size];
+        }
+
+
+        //Indexers
+        public Shipment this[int index]
+        {
+            get
+            {
+                if (shipments is not null && index >= 0 && index < shipments.Length)
+                {
+                    return shipments[index];
+                }
+                return default;
+            }
+            set
+            {
+                if (shipments is not null && index >= 0 && index < shipments.Length)
+                    shipments[index] = value;
+            }
+        }
+
+        public Shipment this[string trackingCode]
+        {
+            get
+            {
+                if (shipments is not null)
+                {
+                    for (int i = 0; i < shipments.Length; i++)
+                    {
+                        if (shipments[i] is not null && trackingCode == shipments[i].TrackingCode)
+                        {
+                            return shipments[i];
+                        }
+                    }
+                }
+                return default;
+            }
+        }
+
+        //methods
+        public bool AddShipment(Shipment shipment)
+        {
+            if (shipments is not null)
+            {
+                for (int i = 0; i < shipments.Length; i++)
+                {
+                    if (shipments[i] is null)
+                    {
+                        shipments[i] = shipment;
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
+
+        public bool RemoveShipment(string trackingCode)
+        {
+            if (shipments is not null)
+            {
+                for (int i = 0; i < size; i++)
+                {
+                    if (trackingCode == shipments[i].TrackingCode)
+                    {
+                        shipments[i] = default;
+                        return true;
+                    }
+                }
+
+            }
+            return false;
+        }
+        public void PrintAllShipments()
+        {
+            if (shipments is null) return;
+            Console.WriteLine("\n----- All Shipments -----");
+            for (int i = 0; i < size; i++)
+            {
+                if (shipments[i] is not null)
+                {
+                    shipments[i].PrintShipment();
+                    Console.WriteLine("\n-------------------------");
+                }
+            }
+        }
+    }
+}
