@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="C48-G02-ADV01/C48-G02-ADV01.csproj" Id="e11ca522-afd5-47c8-a168-7a8361c4bb14" />
   <Project Path="C48-G02-ADV02/C48-G02-ADV02.csproj" Id="2e6d90b8-c507-49fb-8669-dbd2f4c1a422" />
+  <Project Path="C48-G02-ADV03/C48-G02-ADV03.csproj" Id="9b096fdd-9aa9-4817-a167-1a0afa289ba4" />
   <Project Path="C48-G02-C#02/C48-G02-C#02.csproj" Id="7998345b-94e4-4ac3-9668-65e05b86fc19" />
   <Project Path="C48-G02-C#03/C48-G02-C#03.csproj" Id="1219f773-1e39-4bb4-9a4d-4838c4b3be07" />
   <Project Path="C48-G02-C#04/C48-G02-C#04.csproj" Id="7f0361ee-623a-44d4-9019-1d7f306acefc" />
