@@ -12,4 +12,5 @@
   <Project Path="C48-G02-OOP04/C48-G02-OOP04.csproj" Id="c4898452-9218-4415-baa7-5359fadb27cb" />
   <Project Path="C48-G02-OOP05/C48-G02-OOP05.csproj" Id="234e655d-339f-4246-8586-678cc8b350d2" />
   <Project Path="G-NET-84-LINQ/G-NET-84-LINQ.csproj" Id="e0f9e7b9-2565-435a-8608-5e4df50f2528" />
+  <Project Path="G-NET-84-LINQ02/G-NET-84-LINQ02.csproj" Id="fdb86157-0204-4198-b46b-1e25ea9754df" />
 </Solution>

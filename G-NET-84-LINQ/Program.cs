@@ -66,13 +66,17 @@ internal class Program
         //           select new { c.CustomerID, o.OrderDate };
         #endregion
 
-        #region 11 - Sort first by-word length and then by a case -insensitive sort of the words in an array. 
+        #region 11 - Show position number alongside ProductName 
+        //var result = ProductList.Select((p, i) => new { Position = i + 1, p.ProductName });
+        #endregion
+
+        #region 12 - Sort first by-word length and then by a case -insensitive sort of the words in an array. 
         //String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
 
         //var result = Arr.OrderBy(w => w.Length).ThenBy(w => w, StringComparer.OrdinalIgnoreCase).ToArray();
         #endregion
 
-        #region 12 - Create a list of all digits in the array whose second letter is 'i' that is reversed from the order in the original array.
+        #region 13 - Create a list of all digits in the array whose second letter is 'i' that is reversed from the order in the original array.
         //var s = new string[] { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
         //var result = s.Where(w => w[1]=='i').Reverse();
         #endregion
