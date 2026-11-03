@@ -11,6 +11,10 @@
   <Project Path="C48-G02-OOP03/C48-G02-OOP03.csproj" Id="5d11ae60-9af8-4682-bb1c-83f03f83d254" />
   <Project Path="C48-G02-OOP04/C48-G02-OOP04.csproj" Id="c4898452-9218-4415-baa7-5359fadb27cb" />
   <Project Path="C48-G02-OOP05/C48-G02-OOP05.csproj" Id="234e655d-339f-4246-8586-678cc8b350d2" />
+  <Project Path="EFCore_1/EFCore_1.csproj" Id="29cf4bec-2c89-4a38-9e8f-e69dcbd8e2ad" />
+  <Project Path="EFCore_2/EFCore_2.csproj" Id="62a00131-e038-4f1b-8224-cdb697dbebb5" />
+  <Project Path="ExaminationSystem/ExaminationSystem.csproj" />
+  <Project Path="G-NET-84-EF04/G-NET-84-EF01.csproj" Id="c5656ff3-0358-4113-9c70-3840ed78e257" />
   <Project Path="G-NET-84-LINQ/G-NET-84-LINQ.csproj" Id="e0f9e7b9-2565-435a-8608-5e4df50f2528" />
   <Project Path="G-NET-84-LINQ02/G-NET-84-LINQ02.csproj" Id="fdb86157-0204-4198-b46b-1e25ea9754df" />
 </Solution>
