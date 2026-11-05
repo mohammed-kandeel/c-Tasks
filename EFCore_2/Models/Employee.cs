@@ -12,10 +12,4 @@ internal class Employee
     public string UserName { get; set; }
 
 
-
-    #region 1 mendatory to 1 optional [Manage relationship]
-    //nav prop [one]  [optional]
-    public Department? ManagedDepartment { get; set; }
-    #endregion
-
 }
