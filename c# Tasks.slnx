@@ -1,23 +1,37 @@
 <Solution>
-  <Project Path="C48-G02-ADV01/C48-G02-ADV01.csproj" Id="e11ca522-afd5-47c8-a168-7a8361c4bb14" />
-  <Project Path="C48-G02-ADV02/C48-G02-ADV02.csproj" Id="2e6d90b8-c507-49fb-8669-dbd2f4c1a422" />
-  <Project Path="C48-G02-ADV03/C48-G02-ADV03.csproj" Id="9b096fdd-9aa9-4817-a167-1a0afa289ba4" />
-  <Project Path="C48-G02-C#02/C48-G02-C#02.csproj" Id="7998345b-94e4-4ac3-9668-65e05b86fc19" />
-  <Project Path="C48-G02-C#03/C48-G02-C#03.csproj" Id="1219f773-1e39-4bb4-9a4d-4838c4b3be07" />
-  <Project Path="C48-G02-C#04/C48-G02-C#04.csproj" Id="7f0361ee-623a-44d4-9019-1d7f306acefc" />
-  <Project Path="C48-G02-C#05/C48-G02-C#05.csproj" Id="e0793d35-bdf8-42f8-b191-ae395816faed" />
-  <Project Path="C48-G02-OOP01/C48-G02-OOP01.csproj" Id="03314c2e-fe89-402d-803d-2d27517f65e2" />
-  <Project Path="C48-G02-OOP02/C48-G02-OOP02.csproj" Id="06d54344-3003-4110-8ac0-f33c156eeb07" />
-  <Project Path="C48-G02-OOP03/C48-G02-OOP03.csproj" Id="5d11ae60-9af8-4682-bb1c-83f03f83d254" />
-  <Project Path="C48-G02-OOP04/C48-G02-OOP04.csproj" Id="c4898452-9218-4415-baa7-5359fadb27cb" />
-  <Project Path="C48-G02-OOP05/C48-G02-OOP05.csproj" Id="234e655d-339f-4246-8586-678cc8b350d2" />
-  <Project Path="EFCore_1/EFCore_1.csproj" Id="29cf4bec-2c89-4a38-9e8f-e69dcbd8e2ad" />
-  <Project Path="EFCore_2/EFCore_2.csproj" Id="62a00131-e038-4f1b-8224-cdb697dbebb5" />
-  <Project Path="ExaminationSystem/ExaminationSystem.csproj" />
-  <Project Path="G-NET-84-EF01/G-NET-84-EF01.csproj" />
-  <Project Path="G-NET-84-EF02/G-NET-84-EF02.csproj" Id="b0e92a8b-d81d-4f0f-a0a4-3d97cec6c48f" />
-  <Project Path="G-NET-84-EF03/G-NET-84-EF03.csproj" Id="692ad55f-6c8b-4efb-b47a-834469a71cae" />
-  <Project Path="G-NET-84-LINQ/G-NET-84-LINQ.csproj" Id="e0f9e7b9-2565-435a-8608-5e4df50f2528" />
-  <Project Path="G-NET-84-LINQ02/G-NET-84-LINQ02.csproj" Id="fdb86157-0204-4198-b46b-1e25ea9754df" />
-  <Project Path="Relationships/Relationships.csproj" />
+  <Folder Name="/ADV/">
+    <Project Path="C48-G02-ADV01/C48-G02-ADV01.csproj" Id="e11ca522-afd5-47c8-a168-7a8361c4bb14" />
+    <Project Path="C48-G02-ADV02/C48-G02-ADV02.csproj" Id="2e6d90b8-c507-49fb-8669-dbd2f4c1a422" />
+    <Project Path="C48-G02-ADV03/C48-G02-ADV03.csproj" Id="9b096fdd-9aa9-4817-a167-1a0afa289ba4" />
+    <Project Path="ExaminationSystem/ExaminationSystem.csproj" />
+  </Folder>
+  <Folder Name="/Basic/">
+    <Project Path="C48-G02-C#02/C48-G02-C#02.csproj" Id="7998345b-94e4-4ac3-9668-65e05b86fc19" />
+    <Project Path="C48-G02-C#03/C48-G02-C#03.csproj" Id="1219f773-1e39-4bb4-9a4d-4838c4b3be07" />
+    <Project Path="C48-G02-C#04/C48-G02-C#04.csproj" Id="7f0361ee-623a-44d4-9019-1d7f306acefc" />
+    <Project Path="C48-G02-C#05/C48-G02-C#05.csproj" Id="e0793d35-bdf8-42f8-b191-ae395816faed" />
+  </Folder>
+  <Folder Name="/Entity Framework Core/">
+    <Project Path="EFCore_1/EFCore_1.csproj" Id="29cf4bec-2c89-4a38-9e8f-e69dcbd8e2ad" />
+    <Project Path="EFCore_2/EFCore_2.csproj" Id="62a00131-e038-4f1b-8224-cdb697dbebb5" />
+    <Project Path="EFCore_3/EFCore_4.csproj" Id="9de9ef4e-5a24-4d1d-bc68-68dbc5616c7d" />
+    <Project Path="G-NET-84-EF01/G-NET-84-EF01.csproj" />
+    <Project Path="G-NET-84-EF02/G-NET-84-EF02.csproj" Id="b0e92a8b-d81d-4f0f-a0a4-3d97cec6c48f" />
+    <Project Path="G-NET-84-EF03/G-NET-84-EF03.csproj" Id="692ad55f-6c8b-4efb-b47a-834469a71cae" />
+    <Project Path="Relationships/Relationships.csproj" />
+  </Folder>
+  <Folder Name="/LINQ/">
+    <Project Path="G-NET-84-LINQ/G-NET-84-LINQ.csproj" Id="e0f9e7b9-2565-435a-8608-5e4df50f2528" />
+    <Project Path="G-NET-84-LINQ02/G-NET-84-LINQ02.csproj" Id="fdb86157-0204-4198-b46b-1e25ea9754df" />
+  </Folder>
+  <Folder Name="/MVC/">
+    <Project Path="MVC_1/MVC_1.csproj" Id="d03d535c-3478-4d87-9f23-9ac749c496cf" />
+  </Folder>
+  <Folder Name="/OOP/">
+    <Project Path="C48-G02-OOP01/C48-G02-OOP01.csproj" Id="03314c2e-fe89-402d-803d-2d27517f65e2" />
+    <Project Path="C48-G02-OOP02/C48-G02-OOP02.csproj" Id="06d54344-3003-4110-8ac0-f33c156eeb07" />
+    <Project Path="C48-G02-OOP03/C48-G02-OOP03.csproj" Id="5d11ae60-9af8-4682-bb1c-83f03f83d254" />
+    <Project Path="C48-G02-OOP04/C48-G02-OOP04.csproj" Id="c4898452-9218-4415-baa7-5359fadb27cb" />
+    <Project Path="C48-G02-OOP05/C48-G02-OOP05.csproj" Id="234e655d-339f-4246-8586-678cc8b350d2" />
+  </Folder>
 </Solution>
