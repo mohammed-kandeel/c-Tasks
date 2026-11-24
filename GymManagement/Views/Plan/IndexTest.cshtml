@@ -1,0 +1,67 @@
+﻿@using GymManagement.Entities
+@* @model Member  *@
+@model IEnumerable<Member>
+
+
+
+@{
+    string pageTitle = "Route academy";
+    int age = 22;
+    List<int> numbers = [1, 2, 3, 4, 5, 6];
+    /*
+     * multiple
+     * line
+     * comment
+     */
+}
+
+
+<!Doctype html>
+<html>
+<head>
+    <title>@pageTitle</title>
+</head>
+<body>
+    <h1>Welcome to route academy</h1>
+    <h2>@pageTitle</h2>
+    <p>Age: @age</p>
+    <p>@age + 1</p> <!--22 +1-->
+    <p>@(age + 1)</p> <!--23-->
+    @if (age >= 18)
+    {
+        <p>you are an adult</p>
+    }
+    else
+    {
+        <p>you are under 18</p>
+    }
+
+    @for (int i = 0; i < numbers.Count; i++)
+    {
+        <p>number @i+1 = @numbers[i]</p>
+    }
+
+
+    <a href="/Home/Index">Home</a>
+
+    <!--Generate href = "/Home/Index"-->
+    <a asp-controller="Home" asp-action="Index"></a>
+
+    <!--Generate href = "/Products/Details/5"-->
+    <a asp-controller="Products" asp-action="Details" asp-route-id="5">Product 5</a>
+
+
+    <environment include="Development">
+        <p>Running in development</p>
+    </environment>
+
+    <environment exclude="Development">
+        <p>Running in production</p>
+    </environment>
+
+
+
+
+
+</body>
+</html>
