@@ -25,6 +25,7 @@
     <Project Path="G-NET-84-LINQ02/G-NET-84-LINQ02.csproj" Id="fdb86157-0204-4198-b46b-1e25ea9754df" />
   </Folder>
   <Folder Name="/MVC/">
+    <Project Path="GymManagement/GymManagement.csproj" Id="6aebda2c-4a0b-4895-8376-38db2db79d95" />
     <Project Path="MVC_1/MVC_1.csproj" Id="d03d535c-3478-4d87-9f23-9ac749c496cf" />
   </Folder>
   <Folder Name="/OOP/">
