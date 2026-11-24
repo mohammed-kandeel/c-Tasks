@@ -19,7 +19,7 @@ public class PlanController : Controller
         {
             Id = 1,
             Name = "fvdcsx",
-            Description = "fvd'c;',lokjiphouyguhijkl;.pjiko'lp;.",
+            Description = "fvd'c;',lokjipho",
             DurationDays = 152,
             Price = 51,
             IsActive = true
@@ -29,8 +29,8 @@ public class PlanController : Controller
         plan = new Plan()
         {
             Id = 2,
-            Name = "fvdcdesxvecdsvfdcscsx",
-            Description = "fvd'c;',lokjvrcexvrecxiphouyguhijkl;.pjiko'lp;.",
+            Name = "fvdcdesxve  cds vfd cscsx",
+            Description = "fvd'c;',lokjvrcexvrecxiph  vdcsljonlm,/ uojklm ,ounklm ",
             DurationDays = 350,
             Price = 510,
             IsActive = false
