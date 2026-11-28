@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace GymManagement.Migrations
 {
-    [DbContext(typeof(GymManagementDbContext))]
+    [DbContext(typeof(GymDbContext))]
     partial class GymManagementDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

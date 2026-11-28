@@ -1,0 +1,64 @@
+﻿@model Plan
+@{
+    ViewData["Title"] = "Edit Plan";
+}
+
+<div class="page-head">
+    <div>
+        <h1 class="page-title">Edit plan</h1>
+        <p class="page-sub">Changes apply to new memberships only.</p>
+    </div>
+</div>
+
+<form asp-action="Edit" method="post" class="card-r form-card">
+
+    <div class="form-section">
+        <div class="form-grid">
+            <div class="field full">
+
+                @* 
+                   asp foe -- > connect HTML element to a property in binded model
+                   
+                   asp-for Label :
+                   - Generate label text
+                   - Connect label to the input [internally using for attribute]
+                   - <label for = "Name">Name</label>
+                   
+                   asp-for input
+                   - Generate the id and the name attribute
+                   - Get the value from the binded model [Proeprty]
+                   - Generate type of input field based on the property type
+                   - <input type="text" id="Name" name="Name" value="@Model. Name" class="input-r" readonly>
+                *@
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="input-r" readonly />
+                <div class="field-hint">Plan names can't be changed.</div>
+            </div>
+            <div class="field">
+                <label asp-for="Price"></label>
+                <div class="input-group-r">
+                    <input asp-for="Price" type="number" step="0.01" min="0.01" class="input-r" />
+                    <span class="addon">EGP</span>
+                </div>
+            </div>
+            <div class="field">
+                <label asp-for="DurationDays"></label>
+                <div class="input-group-r">
+                    <input asp-for="DurationDays" type="number" min="1" max="365" class="input-r" />
+                    <span class="addon">days</span>
+                </div>
+            </div>
+            <div class="field full">
+                <label asp-for="Description"></label>
+                <textarea asp-for="Description" class="input-r" rows="4"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-actions">
+        <a class="btn-r btn-ghost-r" asp-action="Index">Cancel</a>
+        <button type="submit" class="btn-r btn-primary-r"><i class="bi bi-check2"></i> Save plan</button>
+    </div>
+
+    
+</form>

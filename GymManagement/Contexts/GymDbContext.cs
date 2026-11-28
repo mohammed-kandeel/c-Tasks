@@ -3,12 +3,17 @@ using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 namespace GymManagement.Context;
 
-public class GymManagementDbContext : DbContext
+public class GymDbContext : DbContext
 {
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //{
+    //    optionsBuilder.UseSqlServer("server=.; database=GymDb;trusted_Connection=true;trustServerCertificate=true");
+    //}
+    public GymDbContext(DbContextOptions<GymDbContext> options) : base(options)
     {
-        optionsBuilder.UseSqlServer("server=.; database=GymDb;trusted_Connection=true;trustServerCertificate=true");
+
     }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
@@ -21,5 +26,4 @@ public class GymManagementDbContext : DbContext
     public DbSet<Session> Sessions { get; set; }
     public DbSet<Plan> Plans { get; set; }
     #endregion
-
 }
